@@ -9,13 +9,13 @@ const education = [
   },
   {
     name: "Kendriya Vidyalaya Sevoke Road",
-    year: "2019-2021",
+    year: "2021",
     cgpa: "8.1",
   },
   {
     name: "Kendriya Vidyalaya Sevoke Road",
-    year: "2017-2019",
-    cgpa: "7.9",
+    year: "2019",
+    cgpa: "7.8",
   },
 ];
 
