@@ -8,12 +8,12 @@ const education = [
     cgpa: "8.3",
   },
   {
-    name: "Kendriya Vidyalaya",
+    name: "Kendriya Vidyalaya Sevoke Road",
     year: "2019-2021",
     cgpa: "8.1",
   },
   {
-    name: "Kendriya Vidyalaya",
+    name: "Kendriya Vidyalaya Sevoke Road",
     year: "2017-2019",
     cgpa: "7.9",
   },
@@ -21,8 +21,8 @@ const education = [
 
 const Education = () => {
   return (
-    <div>
-      <h1 className="text-4xl text-gray-200 font-bold text-center mb-12">
+    <div className="flex flex-col justify-center px-4 text-gray-200 pb-8 md:py-12" id="education">
+      <h1 className="text-3xl text-gray-200 font-bold text-center mb-12">
         Education
       </h1>
       <motion.div
@@ -38,7 +38,7 @@ const Education = () => {
             whileInView='visible'
             viewport={{once:false,amount:0.3}}
             transition={{duration:1}}
-            className="max-w-[600px] mx-auto border border-purple-600 p-6 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-purple-700/10"
+            className="max-w-[400px] mx-auto border border-purple-600 p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-purple-700/10"
           >
             <h2 className="text-gray-300">{educations.name}</h2>
 
