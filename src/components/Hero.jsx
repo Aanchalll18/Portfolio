@@ -102,7 +102,7 @@ const Hero = () => {
 				whileInView={{ opacity: 1 }}
 				viewport={{ once: true }}
 				transition={{ duration: 1, delay: 2 }}
-                className="flex flex-row text-7xl px-12 md:px-0 w-full justify-center items-center py-24 mt-20" 
+                className="flex flex-row text-4xl px-12 md:px-0 w-full justify-center items-center py-24 mt-10" 
 			>
 				<p className="text-gray-200 mr-6">My Tech Stack</p>
 				<DiHtml5 className="mx-2 text-red-600" />

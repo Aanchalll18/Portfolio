@@ -1,12 +1,27 @@
-import React from 'react'
+// import React from 'react'
+
+// const Footer = () => {
+//   return (
+//     <div className='max-w-[130px] mx-auto flex justify-between  items-center p-6 md:p-20 text-sm md:text-lg mt-3'>
+//         <p className='text-gray-400'>@2024 copyright</p>
+        
+//     </div>
+//   )
+// }
+
+// export default Footer
+import React from 'react';
 
 const Footer = () => {
   return (
-    <div className='max-w-[130px] mx-auto flex justify-between  items-center p-6 md:p-20 text-sm md:text-lg mt-3'>
-        <p className='text-gray-400'>@2024 copyright</p>
-        
+    <div className="bg-purple-900/10 text-gray-400">
+      <div className="max-w-[1200px] mx-auto flex justify-center items-center p-4 md:p-6 text-center">
+        <p className="text-sm md:text-base">
+          &copy; 2024 Aanchal. All rights reserved.
+        </p>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
