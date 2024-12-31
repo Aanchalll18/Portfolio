@@ -73,7 +73,7 @@ const Contact = () => {
 						/>
 						<button
 							type="submit"
-							className="w-full py-3 rounded-md text-gray-100 font-semibold text-xl bg-primary-color"
+							className="w-full py-3 rounded-md text-gray-100 font-semibold text-xl bg-purple-900"
 						>
 							Send Message
 						</button>
