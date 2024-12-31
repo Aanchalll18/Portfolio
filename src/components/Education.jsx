@@ -1,21 +1,26 @@
+
+
 import React from "react";
 import { motion } from "framer-motion";
 
 const education = [
   {
     name: "Siliguri Institute of Technology",
+    degree: "BTech in Computer Science and Engineering",
     year: "2021-2025",
     cgpa: "8.3",
   },
   {
     name: "Kendriya Vidyalaya Sevoke Road",
+    class: "Higher Secondary",
     year: "2021",
-    cgpa: "8.1",
+    percentage: "80%",
   },
   {
     name: "Kendriya Vidyalaya Sevoke Road",
+    class: "Senior Secondary",
     year: "2019",
-    cgpa: "7.8",
+    percentage: "78%",
   },
 ];
 
@@ -29,27 +34,47 @@ const Education = () => {
         className="space-y-8"
         initial="hidden"
         animate="visible"
-        
       >
         {education.map((educations, index) => (
           <motion.div
             key={index}
-            initial='hidden'
-            whileInView='visible'
-            viewport={{once:false,amount:0.3}}
-            transition={{duration:1}}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: false, amount: 0.3 }}
+            transition={{ duration: 1 }}
             className="max-w-[400px] mx-auto border border-purple-600 p-4 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 bg-purple-700/10"
           >
             <h2 className="text-gray-300 text-lg font-semibold">{educations.name}</h2>
+
+            {educations.class && (
+              <p className="text-gray-300 text-sm">
+                <strong>Class:</strong> {educations.class}
+              </p>
+            )}
 
             <p className="text-gray-300 text-sm ">
               <strong>Year:</strong> {educations.year}
             </p>
 
-            <p className="text-gray-300 text-sm">
-              <strong>CGPA:</strong> {educations.cgpa}
-            </p>
+            {educations.degree && (
+              <p className="text-gray-300 text-sm">
+                <strong>Degree:</strong> {educations.degree}
+              </p>
+            )}
 
+            {educations.cgpa && (
+              <p className="text-gray-300 text-sm">
+                <strong>CGPA:</strong> {educations.cgpa}
+              </p>
+            )}
+
+            {educations.percentage && (
+              <p className="text-gray-300 text-sm">
+                <strong>Percentage:</strong> {educations.percentage}
+              </p>
+            )}
+
+           
           </motion.div>
         ))}
       </motion.div>
