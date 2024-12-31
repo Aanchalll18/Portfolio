@@ -18,25 +18,13 @@ const Contact = () => {
 							<h3 className="text-3xl font-semibold mb-5">
 								About <span>Me</span>
 							</h3>
-							<p className="text-justify leading-7 w-11/12 mx-auto">
+							<p className="text-justify leading-7 w-10/11 mx-auto">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
 								eos, quam vel quisquam, explicabo sit labore dignissimos optio
 								ratione quibusdam doloribus pariatur consequuntur sint.
 								Reprehenderit cupiditate possimus facere quasi voluptatem?
 							</p>
-							<div className="flex gap-6 flex-row text-4xl md:text-purple-400 ml-20  mt-5 z-10">
-								<motion.a whileHover={{ scale: 1.2 }} href="#">
-									<AiOutlineGithub />
-								</motion.a>
-
-								<motion.a whileHover={{ scale: 1.2 }} href="#">
-									<AiOutlineLinkedin />
-								</motion.a>
-
-								<motion.a whileHover={{ scale: 1.2 }} href="#">
-									<AiOutlineMail />
-								</motion.a>
-							</div>
+							
 						</div>
 					</div>
 
