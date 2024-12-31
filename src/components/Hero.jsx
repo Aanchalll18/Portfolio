@@ -8,7 +8,7 @@ import {
 	DiNodejsSmall,
 	DiReact,
 	DiMysql,
-    DiJavascript1
+	DiJavascript1,
 } from "react-icons/di";
 import {
 	AiOutlineGithub,
@@ -69,18 +69,20 @@ const Hero = () => {
 							}}
 							className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border border-purple-400 rounded-xl"
 						>
-							Download CV
+							<a href="/cv.pdf" download="cv.pdf" className="flex items-center">
+								Download CV
+							</a>
 						</motion.button>
 						<div className="flex gap-6 flex-row text-4xl md:text-purple-400 z-20">
-							<motion.a whileHover={{ scale: 1.2 }} href="#">
+							<motion.a whileHover={{ scale: 1.2 }} href="https://github.com/Aanchalll18">
 								<AiOutlineGithub />
 							</motion.a>
 
-							<motion.a whileHover={{ scale: 1.2 }} href="#">
+							<motion.a whileHover={{ scale: 1.2 }} href="https://www.linkedin.com/in/aanchal-161b26270/">
 								<AiOutlineLinkedin />
 							</motion.a>
 
-							<motion.a whileHover={{ scale: 1.2 }} href="#">
+							<motion.a whileHover={{ scale: 1.2 }} href="mailto:kumariaachal002@gmail.com">
 								<AiOutlineMail />
 							</motion.a>
 						</div>
@@ -102,20 +104,20 @@ const Hero = () => {
 				whileInView={{ opacity: 1 }}
 				viewport={{ once: true }}
 				transition={{ duration: 1, delay: 2 }}
-                className="flex flex-row text-4xl px-12 md:px-0 w-full justify-center items-center py-24 mt-10" 
+				className="flex flex-row text-4xl px-12 md:px-0 w-full justify-center items-center py-24 mt-10"
 			>
 				<p className="text-gray-200 mr-6">My Tech Stack</p>
 				<DiHtml5 className="mx-2 text-red-600" />
 				<DiCss3 className="mx-2  text-blue-600" />
-                <DiJavascript1  className="mx-2  text-yellow-600"/>
+				<DiJavascript1 className="mx-2  text-yellow-600" />
 				<DiReact className="mx-2 text-teal-400" />
 				<DiNodejsSmall className="mx-2  text-green-600" />
 				<DiMysql className="mx-2  text-blue-400" />
 			</motion.div>
 
-                        <div className="absolute insert-0 hidden md:block">
-                            <ShinyEffect left={0} top={0} size={1400}/>
-                        </div>
+			<div className="absolute insert-0 hidden md:block">
+				<ShinyEffect left={0} top={0} size={1400} />
+			</div>
 		</div>
 	);
 };
