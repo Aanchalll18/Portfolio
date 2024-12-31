@@ -76,19 +76,19 @@ const Hero = () => {
 
 						<div className="flex gap-6 flex-row text-4xl md:text-purple-400 z-20">
 							<motion.a whileHover={{ scale: 1.2 }} href="https://github.com/Aanchalll18"
-							className="text-purple-900"
+							className="text-purple-400"
 							>
 								<AiOutlineGithub />
 							</motion.a>
 
 							<motion.a whileHover={{ scale: 1.2 }} href="https://www.linkedin.com/in/aanchal-161b26270/"
-							className="  text-purple-900"
+							className="  text-purple-400"
 							>
 								<AiOutlineLinkedin />
 							</motion.a>
 
 							<motion.a whileHover={{ scale: 1.2 }} href="mailto:kumariaachal002@gmail.com"
-							className="  text-purple-900"
+							className="  text-purple-400"
 							>
 								<AiOutlineMail />
 							</motion.a>
