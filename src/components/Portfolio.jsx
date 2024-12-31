@@ -47,7 +47,7 @@ const projects=[
 
 const Portfolio = () => {
   return (
-    <div className='max-w-[1000px] mx-auto p-6  mt-20 md:my-20' id='portfolio'>
+    <div className='max-w-[700px] mx-auto p-6  mt-20 md:my-20' id='portfolio'>
       <h2 className='text-3xl font-bolod text-gray-200 mb-8'></h2>
       {
         projects.map((project,index)=>(
