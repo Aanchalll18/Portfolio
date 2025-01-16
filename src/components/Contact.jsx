@@ -18,7 +18,8 @@ const Contact = () => {
 							<h3 className="text-3xl font-semibold mb-5">
 								About <span>Me</span>
 							</h3>
-							<p className="text-justify leading-7 w-10/11 mx-auto">
+							<p className="text-justify leading-7 w-10/11
+							 mx-auto">
 								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
 								eos, quam vel quisquam, explicabo sit labore dignissimos optio
 								ratione quibusdam doloribus pariatur consequuntur sint.
