@@ -1,5 +1,5 @@
 import React from 'react'
-import project1 from '../assets/proj.jpg'
+import project1 from '../assets/proj1.png'
 import project2 from '../assets/proj.jpg'
 import project3 from '../assets/proj.jpg'
 import project4 from '../assets/proj.jpg'
@@ -9,11 +9,11 @@ import { AiFillGithub, AiOutlineGithub } from 'react-icons/ai'
 const projects=[
     {
         img:project1,
-        title: "Project #1",
-        description: "UI for fronted development using react",
+        title: "CareConnect",
+        description: "Empowering seamless healthcare communication platform.",
         links:{
-            site:'#',
-            github:'#'
+            site:'',
+            github:'https://github.com/Aanchalll18/CareConnect'
         },
     },
     {
@@ -68,13 +68,13 @@ const Portfolio = () => {
 
                         <div className='flex space-x-4'>
                             <a href={project.links.site}
-                                className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700 transition duration-300'
+                                className='px-4 py-2 bg-purple-800 text-gray-200 rounded-lg hover:bg-purple-600 transition duration-300'
                             >
                                 View Site
                             </a>
                             <a href={project.links.github}
-                                 className='px-4 py-2 bg-slate-600 text-gray-200 rounded-lg hover:bg-slate-700 transition duration-300'
-                            ><AiOutlineGithub/></a>
+                                 className='px-4 py-2 bg-purple-900 text-gray-200 rounded-lg hover:bg-purple-700 transition duration-300'
+                            > <AiOutlineGithub style={{ fontSize: '20px' }} /></a>
                         </div>
                    </div>
             </div>
