@@ -1,6 +1,6 @@
 import React from 'react'
 import project1 from '../assets/proj1.png'
-import project2 from '../assets/proj.jpg'
+import project2 from '../assets/project2.png'
 import project3 from '../assets/proj.jpg'
 import project4 from '../assets/proj.jpg'
 
@@ -12,17 +12,17 @@ const projects=[
         title: "CareConnect",
         description: "Empowering seamless healthcare communication platform.",
         links:{
-            site:'',
+            site:'https://care-connect-frontend-two.vercel.app/',
             github:'https://github.com/Aanchalll18/CareConnect'
         },
     },
     {
         img:project2,
-        title: "Project #1",
-        description: "UI for fronted development using react",
+        title: "QR code generator",
+        description: "Fast, Secure, Customizable QR Code Generator",
         links:{
-            site:'#',
-            github:'#'
+            site:'https://qr-code-generator-steel-iota.vercel.app/',
+            github:'https://github.com/Aanchalll18/QR-CODE-GENERATOR'
         },
     },
     {
