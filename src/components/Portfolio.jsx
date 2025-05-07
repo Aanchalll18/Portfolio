@@ -3,6 +3,7 @@ import project1 from '../assets/proj1.png'
 import project2 from '../assets/project2.png'
 import project3 from '../assets/proj.jpg'
 import project4 from '../assets/proj.jpg'
+import project5 from '../assets/proj3.png'
 
 import { AiFillGithub, AiOutlineGithub } from 'react-icons/ai'
 
@@ -26,12 +27,12 @@ const projects=[
         },
     },
     {
-        img:project3,
-        title: "Project #1",
-        description: "UI for fronted development using react",
+        img:project5,
+        title: "GreenCart",
+        description: "Instantly deliver fresh groceries to your doorstep with a click — fast, easy, and reliable.",
         links:{
-            site:'#',
-            github:'#'
+            site:'https://quick-cart-brown-mu.vercel.app/',
+            github:'https://github.com/Aanchalll18/QuickCart'
         },
     },
     {
