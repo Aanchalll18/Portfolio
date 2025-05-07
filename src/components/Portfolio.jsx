@@ -18,15 +18,6 @@ const projects=[
         },
     },
     {
-        img:project2,
-        title: "QR code generator",
-        description: "Fast, Secure, Customizable QR Code Generator",
-        links:{
-            site:'https://qr-code-generator-steel-iota.vercel.app/',
-            github:'https://github.com/Aanchalll18/QR-CODE-GENERATOR'
-        },
-    },
-    {
         img:project5,
         title: "GreenCart",
         description: "Instantly deliver fresh groceries to your doorstep with a click — fast, easy, and reliable.",
@@ -35,6 +26,16 @@ const projects=[
             github:'https://github.com/Aanchalll18/QuickCart'
         },
     },
+    {
+        img:project2,
+        title: "QR code generator",
+        description: "Fast, Secure, Customizable QR Code Generator",
+        links:{
+            site:'https://qr-code-generator-steel-iota.vercel.app/',
+            github:'https://github.com/Aanchalll18/QR-CODE-GENERATOR'
+        },
+    },
+    
     {
         img:project4,
         title: "Project #1",
